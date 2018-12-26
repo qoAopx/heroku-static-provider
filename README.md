@@ -7,11 +7,11 @@ Static site provider for Heroku.
 You need sign-in or sign-up to Heroku.
 
 ```sh
-$ git clone https://github.com/qoAopx/heroku-static-provider.git my-site
-$ cd my-site
-$ heroku create
-$ git push -u heroku master
-$ heroku open
+git clone https://github.com/qoAopx/heroku-static-provider.git my-site
+cd my-site
+heroku create
+git push -u heroku master
+heroku open
 ```
 
 ## Deployment
@@ -19,10 +19,10 @@ $ heroku open
 Add or update files in `/public`.
 
 ```sh
-$ git add .
-$ git commit -a -m 'some commit message'
-$ git push heroku master
-$ heroku open
+git add .
+git commit -a -m 'some commit message'
+git push heroku master
+heroku open
 ```
 
 ## Notes
@@ -30,8 +30,8 @@ $ heroku open
 ### Adding Basic Auth
 
 ```sh
-$ heroku config:set USER=username
-$ heroku config:set PASS=password
+heroku config:set USER=username
+heroku config:set PASS=password
 ```
 
 ## License
