@@ -1,0 +1,17 @@
+{
+    "name": "heroku-static-provider",
+    "version": "1.0.0",
+    "description": "heroku-static-provider",
+    "main": "server.js",
+    "author": "qoAop",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "compression": "^1.7.3",
+        "express": "^4.16.4",
+        "morgan": "^1.9.1"
+    }
+}
